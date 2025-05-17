@@ -1,0 +1,14 @@
+---
+title: "Overview of diversedata"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Overview of diversedata}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+\`\`\`{r} library(diversedata)
+
+# Example usage
+
+head(bcindigenousbiz)

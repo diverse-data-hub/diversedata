@@ -1,0 +1,20 @@
+Package: diversedata
+Title: A user-friendly data repository comprised of data sets focusing on a variety of EDI-related topics
+Version: 1.0.0
+Authors@R: 
+    person("Azin", "Piran", role = c("aut", "cre"))
+    person("Francisco", "Ramirez", role = c("aut", "cre"))
+    person("Siddarth", "Subrahmanian", role = c("aut", "cre"))
+Description: The package will provide instructors with a convenient resource to incorporate diverse topics in the classroom.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
