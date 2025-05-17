@@ -1,9 +1,11 @@
 Package: diversedata
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: A user-friendly data repository comprised of data sets focusing on a variety of EDI-related topics
+Version: 1.0.0
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Azin", "Piran", role = c("aut", "cre"))
+    person("Francisco", "Ramirez", role = c("aut", "cre"))
+    person("Siddarth", "Subrahmanian", role = c("aut", "cre"))
+Description: The package will provide instructors with a convenient resource to incorporate diverse topics in the classroom.
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
 Encoding: UTF-8
