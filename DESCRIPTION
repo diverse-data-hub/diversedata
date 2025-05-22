@@ -1,13 +1,15 @@
 Package: diversedata
-Title: A user-friendly data repository comprised of data sets focusing on a variety of EDI-related topics
+Title: A Curated Collection of Datasets on Diverse Topics
 Version: 1.0.0
-Authors@R: 
-    person("Azin", "Piran", role = c("aut", "cre"))
-    person("Francisco", "Ramirez", role = c("aut", "cre"))
-    person("Siddarth", "Subrahmanian", role = c("aut", "cre"))
-Description: The package will provide instructors with a convenient resource to incorporate diverse topics in the classroom.
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+Authors@R: c(
+    person(given = "Azin", family = "Piran", role = "aut"),
+    person(given = "Francisco", family = "Ramirez", role = "aut"),
+    person(given = "Siddarth", family = "Subrahmanian", email = "sidsub@student.ubc.ca", role = c("aut", "cre")),
+    person(given = "Katie", family = "Burak", role = "aut", comment = c(title = "PhD")),
+    person(given = "Elham E", family = "Khoda", role = "aut", comment = c(title = "PhD"))
+    )
+Description: This package provides instructors with a convenient resource to incorporate diverse topics in the classroom by offering a curated collection of datasets related to equity, diversity, and inclusion (EDI).
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
