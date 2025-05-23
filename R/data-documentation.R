@@ -35,3 +35,12 @@
 #'
 #' @seealso [bcindigenousbiz]
 NULL
+
+#' Alberta Historical Wildfire Dataset
+#'
+#' @format This dataset contains information about historical wildfire incidents in Alberta.
+#' 
+#'
+#' @source \url{https://open.alberta.ca/licence}
+#' Data retrieved from Alberta Open Data under the Alberta Open Government Licence.
+"wildfire"
