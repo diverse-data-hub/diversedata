@@ -2,9 +2,9 @@ Package: diversedata
 Title: A Curated Collection of Datasets on Diverse Topics
 Version: 1.0.0
 Authors@R: c(
-    person(given = "Azin", family = "Piran", role = "aut"),
-    person(given = "Francisco", family = "Ramirez", role = "aut"),
-    person(given = "Siddarth", family = "Subrahmanian", email = "sidsub@student.ubc.ca", role = c("aut", "cre")),
+    person(given = "Azin", family = "Piran", email = "az.p.ctc@gmail.com", role = c("aut", "cre")),
+    person(given = "Francisco", family = "Ramirez", email = "fraramfra@gmail.com", role = c("aut")),
+    person(given = "Siddarth", family = "Subrahmanian", email = "sidsub@student.ubc.ca", role = c("aut")),
     person(given = "Katie", family = "Burak", role = "aut", comment = c(title = "PhD")),
     person(given = "Elham E", family = "Khoda", role = "aut", comment = c(title = "PhD"))
     )

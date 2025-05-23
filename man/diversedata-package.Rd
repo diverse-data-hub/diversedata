@@ -10,12 +10,12 @@
 This package provides instructors with a convenient resource to incorporate diverse topics in the classroom by offering a curated collection of datasets related to equity, diversity, and inclusion (EDI).
 }
 \author{
-\strong{Maintainer}: Siddarth Subrahmanian \email{sidsub@student.ubc.ca}
+\strong{Maintainer}: Azin Piran \email{az.p.ctc@gmail.com}
 
 Authors:
 \itemize{
-  \item Azin Piran
-  \item Francisco Ramirez
+  \item Francisco Ramirez \email{fraramfra@gmail.com}
+  \item Siddarth Subrahmanian \email{sidsub@student.ubc.ca}
   \item Katie Burak (PhD)
   \item Elham E Khoda (PhD)
 }
