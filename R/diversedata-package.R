@@ -1,9 +1,7 @@
-#' @keywords internal
-"_PACKAGE"
-
 #' @docType package
 #' @name diversedata
 #' @title A Curated Collection of Datasets on Diverse Topics
+#'
 #' @description
 #' Diverse Data Hub is an open educational resource offering curated datasets
 #' focused on equity, diversity, inclusion, and other socially relevant topics.
@@ -19,12 +17,16 @@
 #'
 #' @section Available datasets:
 #' - `bcindigenousbiz`: Indigenous-owned businesses in British Columbia, Canada.
+#' - `wildfire`: Historical wildfire incidents in Alberta, Canada.
 #'
 #' @section Usage:
 #' ```r
 #' library(diversedata)
 #' data(bcindigenousbiz)
 #' head(bcindigenousbiz)
+#'
+#' data(wildfire)
+#' head(wildfire)
 #' ```
 #'
 #' @section Citation:
@@ -32,15 +34,5 @@
 #' ```r
 #' citation("diversedata")
 #' ```
-#'
-#' @seealso [bcindigenousbiz]
-NULL
+"_PACKAGE"
 
-#' Alberta Historical Wildfire Dataset
-#'
-#' @format This dataset contains information about historical wildfire incidents in Alberta.
-#' 
-#'
-#' @source \url{https://open.alberta.ca/licence}
-#' Data retrieved from Alberta Open Data under the Alberta Open Government Licence.
-"wildfire"
