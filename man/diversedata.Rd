@@ -23,6 +23,7 @@ Example case studies are also included to illustrate practical applications.
 \itemize{
 \item \code{bcindigenousbiz}: Indigenous-owned businesses in British Columbia, Canada.
 \item \code{wildfire}: Historical wildfire incidents in Alberta, Canada.
+\item \code{globalrights}: Global indicators on LGBTIQ+ rights and related social and economic variables, compiled from Our World in Data.
 }
 }
 
