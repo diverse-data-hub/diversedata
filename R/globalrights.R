@@ -1,0 +1,32 @@
+#' GlobalRights Dataset
+#'
+#' This dataset compiles diverse indicators related to LGBTIQ+ rights and social context
+#' from a range of open-access sources curated by Our World in Data. Topics include gender-affirming care,
+#' marriage equality, employment protections, censorship, education spending, fertility rates,
+#' and broader measures of economic and civil liberties.
+#'
+#' Terminology is aligned with the United Nations' "Free and Equal" campaign for LGBTIQ+ equality.
+#' All data are licensed under open terms (primarily CC BY), with detailed attribution below.
+#'
+#' @format A data frame containing global indicators on LGBTIQ+ rights and related social and economic variables.
+#'
+#' @source Various datasets compiled and processed by Our World in Data:
+#' \itemize{
+#'   \item Gender-affirming care: \url{https://ourworldindata.org/grapher/gender-affirming-care}
+#'   \item Same-sex marriage: \url{https://ourworldindata.org/grapher/marriage-same-sex-partners-equaldex}
+#'   \item Employment discrimination protections: \url{https://ourworldindata.org/grapher/employment-discrimination-lgbt-equaldex}
+#'   \item Fertility rate: \url{https://ourworldindata.org/grapher/children-born-per-woman}
+#'   \item Censorship of LGBT+ issues: \url{https://ourworldindata.org/grapher/censorship-of-lgbt-issues}
+#'   \item Legal gender marker change: \url{https://ourworldindata.org/grapher/right-to-change-legal-gender-equaldex}
+#'   \item GDP per capita: \url{https://ourworldindata.org/grapher/gdp-per-capita-worldbank}
+#'   \item Education spending (share of GDP): \url{https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp}
+#'   \item Income inequality (Gini index): \url{https://ourworldindata.org/grapher/economic-inequality-gini-index}
+#'   \item Human rights index (civil liberties): \url{https://ourworldindata.org/grapher/human-rights-index-vdem}
+#' }
+#'
+#' See each source's original documentation via the URLs provided for licensing and citation requirements.
+#'
+#' @examples
+#' data(globalrights)
+#' head(globalrights)
+"globalrights"

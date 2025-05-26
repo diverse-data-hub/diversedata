@@ -18,6 +18,7 @@
 #' @section Available datasets:
 #' - `bcindigenousbiz`: Indigenous-owned businesses in British Columbia, Canada.
 #' - `wildfire`: Historical wildfire incidents in Alberta, Canada.
+#' - `globalrights`: Global indicators on LGBTIQ+ rights and related social and economic variables, compiled from Our World in Data.
 #'
 #' @section Usage:
 #' ```r
