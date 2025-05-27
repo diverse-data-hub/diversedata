@@ -1,13 +1,15 @@
-# diversedata <img src="man/figures/logo.png" align="right" width="54"/>
+# diversedata <img src="man/figures/logo.png" align="right" width="49"/>
 
-## A Curated Collection of Datasets on Diverse Topics
+## A curated collection of data sets on diverse topics
 
-Diverse Data Hub is an open educational resource offering curated datasets focused on equity, diversity, inclusion, and other socially relevant topics. It is designed to support students, educators, and researchers in accessing and working with meaningful data in their teaching, learning, and analysis. Datasets are available through the diversedata R package, allowing for straightforward integration into data science workflows. Each dataset includes detailed documentation and contextual background to support informed exploration and connection to real-world topics. Example case studies are also included to illustrate practical applications.
+**diversedata** is an R package that provides a curated collection of real-world data sets centered on themes of **equity**, **diversity**, and **inclusion** (EDI). These data sets are intended to support teaching, learning, and analysis by offering meaningful and socially relevant data that can be used in data science workflows.
+
+Each data set includes contextual background and documentation to support thoughtful exploration. Example use cases and vignettes are included to demonstrate practical applications in R.
+
+**For more information, visit the project website:** <https://diverse-data-hub.github.io/>
 
 ------------------------------------------------------------------------
 
-## 📦 Installation
+## Installation:
 
-You can install the development version of `diversedata` from GitHub using:
-
-\`\`\`r \# install.packages("devtools") devtools::install_github("yourusername/diversedata")
+TBD

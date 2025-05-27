@@ -3,17 +3,17 @@
 #' @title A Curated Collection of Datasets on Diverse Topics
 #'
 #' @description
-#' Diverse Data Hub is an open educational resource offering curated datasets
-#' focused on equity, diversity, inclusion, and other socially relevant topics.
+#' `diversedata` is an R package that offers a growing collection of well-documented,
+#' real-world data sets centered on themes of equity, diversity, and inclusion (EDI).
 #'
-#' It is designed to support students, educators, and researchers in accessing
-#' and working with meaningful data in their teaching, learning, and analysis.
+#' Each data set includes contextual background and is curated to encourage thoughtful
+#' engagement with social topics through data. Example use cases and vignettes are
+#' included to demonstrate practical applications in R.
 #'
-#' Datasets are available through the `diversedata` R package, allowing for straightforward
-#' integration into data science workflows. Each dataset includes detailed documentation
-#' and contextual background to support informed exploration and connection to real-world topics.
+#' This package aims to help learners and educators move beyond generic datasets
+#' by incorporating content that reflects diverse lived experiences and societal issues.
 #'
-#' Example case studies are also included to illustrate practical applications.
+#' For more information, visit the project website: \url{https://diverse-data-hub.github.io/}
 #'
 #' @section Available datasets:
 #' - `bcindigenousbiz`: Indigenous-owned businesses in British Columbia, Canada.
