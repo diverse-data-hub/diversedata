@@ -6,7 +6,7 @@
 
 Each data set includes contextual background and documentation to support thoughtful exploration. Example use cases are included to demonstrate practical applications in R.
 
-For more information, visit the project website: <https://diverse-data-hub.github.io/>
+For more information, please visit: <https://diverse-data-hub.github.io/>
 
 ------------------------------------------------------------------------
 
