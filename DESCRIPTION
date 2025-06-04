@@ -8,7 +8,7 @@ Authors@R: c(
     person(given = "Francisco", family = "Ramirez", role = "aut"),
     person(given = "Siddarth", family = "Subrahmanian", role = "aut")
     )
-Description: This package provides instructors with a convenient resource to incorporate diverse topics in the classroom by offering a curated collection of datasets related to equity, diversity, and inclusion (EDI).
+Description: This package offers a curated collection of real-world datasets on diverse themes, designed to support meaningful exploration, analysis and learning in data science.
 License: CC BY 4.0 + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
