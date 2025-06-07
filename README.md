@@ -8,8 +8,47 @@ Each data set includes contextual background and documentation to support though
 
 For more information, please visit: <https://diverse-data-hub.github.io/>
 
-------------------------------------------------------------------------
+## Installation
 
-## Installation:
+To install the `diversedata` R package from GitHub, follow these steps:
 
-TBD
+### Prerequisites
+
+-   Ensure you have R installed (download from [CRAN](https://cran.r-project.org/))
+
+-   Install the `devtools` package if you don't have it:
+
+    ``` r
+    install.packages("devtools")
+    ```
+
+### Installation
+
+Install `diversedata` directly from GitHub using:
+
+``` r
+devtools::install_github("diverse-data-hub/diversedata")
+```
+
+### Loading the Package
+
+After installation, load the package into your R session:
+
+``` r
+library(diversedata)
+```
+
+### Usage
+
+Once installed, you can explore the available data sets and their documentation:
+
+``` r
+# List available datasets
+data(package = "diversedata")
+
+# View documentation for a specific dataset
+?wildfire
+
+# To load a dataset into the environment:
+data("wildfire")
+```

@@ -21,7 +21,8 @@
 #' - `globalrights`: Global indicators on LGBTIQ+ rights and related social and economic variables, compiled from Our World in Data.
 #' - `hcmst`: U.S. survey on how couples meet and stay together (2017–2022), including impacts of dating apps and COVID-19. Source: Rosenfeld et al. (2023), Stanford University Libraries.
 #' - `womensmarchmadness`: NCAA Women’s Basketball Tournament stats and outcomes.Source: FiveThirtyEight GitHub, CC BY 4.0.
-#'
+#' - `genderassessment`: Company-level gender equality indicators and overall score from the World Benchmarking Alliance's 2024 Gender Assessment.
+
 #' @section Usage:
 #' ```r
 #' library(diversedata)
