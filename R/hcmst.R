@@ -1,41 +1,34 @@
-#' How Couples Meet and Stay Together (HCMST) 2017–2022
+#' How Couples Meet and Stay Together (HCMST) 2022
 #'
-#' This dataset includes survey responses from a nationally representative sample of U.S. adults,
-#' collected in three waves (2017, 2020, 2022). It explores how romantic couples meet, relationship dynamics
-#' over time, and the impact of online dating platforms and the COVID-19 pandemic on relationships.
-#' The data was collected using address-based sampling (ABS) by Ipsos, and includes oversampling of self-identified
-#' lesbian, gay, and bisexual (LGB) individuals.
+#' This dataset is adapted from the original HCMST longitudinal study led by Stanford University researchers.
+#' It includes survey responses from a nationally representative sample of U.S. adults, focused on how romantic relationships form, evolve, and are influenced by factors such as online dating, intimacy, conflict, and the COVID-19 pandemic.
 #'
-#' \strong{Key Topics}:
+#' The version included here concentrates on variables relevant to relationship quality and personal/demographic factors collected in the 2022 wave, with selected variables from earlier waves. It is well-suited for analyses of how external shocks like a public health crisis impact interpersonal relationships.
+#'
+#' \strong{Key Variables}:
 #' \itemize{
-#'   \item How couples first met (e.g., online, through friends, work)
-#'   \item Use of online dating apps such as Tinder, Grindr, etc.
-#'   \item Relationship longevity and satisfaction
-#'   \item Demographic and socioeconomic profiles
-#'   \item Impacts of the COVID-19 pandemic on relationships
+#'   \item \code{subject_age}, \code{subject_sex}, \code{subject_ethnicity}, \code{subject_education}, \code{subject_income_category}, \code{subject_employment_status} – Demographic characteristics
+#'   \item \code{same_sex_couple}, \code{married}, \code{relationship_duration}, \code{children} – Relationship context
+#'   \item \code{sex_frequency}, \code{flirts_with_partner}, \code{fights_with_partner} – Couple behavior indicators
+#'   \item \code{rel_change_during_pandemic}, \code{inc_change_during_pandemic}, \code{subject_had_covid}, \code{partner_had_covid}, \code{subject_vaccinated}, \code{partner_vaccinated}, \code{agree_covid_approach} – COVID-19-related variables
+#'   \item \code{relationship_quality} – Self-reported perception of relationship quality (target variable)
 #' }
 #'
-#' \strong{Data Collection Waves and Sample Sizes}:
+#' \strong{Use Cases}:
 #' \itemize{
-#'   \item 2017: 3,510 respondents (July 13 – August 1, 2017)
-#'   \item 2020: 2,107 follow-up respondents (September – October 2020)
-#'   \item 2022: 1,722 follow-up respondents (March – April 2022)
+#'   \item Analyze how demographic and behavioral factors predict relationship quality
+#'   \item Explore the effects of the COVID-19 pandemic on romantic dynamics
+#'   \item Examine the role of intimacy, conflict, and shared pandemic experiences in partnership resilience
+#'   \item Investigate differences by sex, sexual orientation, and income level
 #' }
 #'
-#' \strong{Response Rates}:
-#' \itemize{
-#'   \item 2017: 52\%
-#'   \item 2020: 87\%
-#'   \item 2022: 83\%
-#' }
-#'
-#' @format A data frame of survey responses with variables on relationship history, meeting context, demographics, sexual orientation, dating app use, and pandemic-related questions.
+#' @format A data frame with 1,328 observations and 21 variables related to romantic relationship characteristics, behaviors, and contextual influences.
 #'
 #' @source \url{https://data.stanford.edu/hcmst2017}
-#'
 #' Rosenfeld, Michael J., Reuben J. Thomas, and Sonia Hausen. (2023). How Couples Meet and Stay Together 2017–2020–2022 Combined Dataset. Stanford University Libraries.
 #'
-#' @note This dataset is provided under a data use agreement. Users must not attempt to identify individuals and must cite the data appropriately. For full documentation, codebooks, and terms of use, please refer to the project's user guide at the source link.
+#' @note This dataset is distributed under a data use agreement. It must not be used to attempt to identify individuals. Please cite appropriately when used in publications or reports.
 #'
 "hcmst"
+
 
