@@ -5,17 +5,42 @@
 \alias{womensmarchmadness}
 \title{NCAA Women’s March Madness Tournament Dataset}
 \format{
-A data frame containing game-level and team-level tournament statistics.
+A data frame with team-level and game-level statistics from NCAA Women’s March Madness tournaments.
 }
 \source{
 \url{https://github.com/fivethirtyeight/data/tree/master/ncaa-womens-basketball-tournament}
-Data sourced from FiveThirtyEight under the Creative Commons Attribution 4.0 International License.
+Data sourced from FiveThirtyEight’s NCAA Women’s Basketball Tournament dataset,
+available under the Creative Commons Attribution 4.0 International License.
+Original story: \emph{Louisiana Tech Was the UConn of the '80s}.
 }
 \usage{
 womensmarchmadness
 }
 \description{
-Historical data on the NCAA Women’s Basketball Tournament, including team performance,
-scores, seeds, and outcomes.
+This dataset provides historical information on team performance in the NCAA Women’s Basketball Tournament,
+including game outcomes, seedings, regular and conference season records, and tournament progress.
+It is based on data collected and published by FiveThirtyEight and is useful for analyzing trends,
+comparing team performances across years, and modeling tournament outcomes.
+}
+\details{
+\strong{Key Variables}:
+\itemize{
+\item \code{year} – Tournament year
+\item \code{school} – Name of the school/team
+\item \code{seed} – Team's seed in the tournament
+\item \code{conference} – Conference affiliation of the team
+\item \code{conf_wins}, \code{conf_losses}, \code{conf_wins_pct} – Conference record and win percentage
+\item \code{conf_rank} – Conference ranking
+\item \code{division} – NCAA division
+\item \code{reg_wins}, \code{reg_losses}, \code{reg_wins_pct} – Regular season record and win percentage
+\item \code{bid} – Type of tournament bid (e.g., at-large or automatic)
+\item \code{first_game_at_home} – Whether the first game was played at home
+\item \code{tourney_wins}, \code{tourney_losses} – Tournament performance
+\item \code{tourney_finish} – Final outcome in the tournament (e.g., Sweet 16, Elite 8, Final Four)
+\item \code{total_wins}, \code{total_losses}, \code{total_wins_pct} – Overall season record
+}
+
+This dataset is useful for understanding the historical dynamics of women’s college basketball,
+team consistency, and the progression of schools through the March Madness tournament.
 }
 \keyword{datasets}
