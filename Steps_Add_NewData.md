@@ -3,14 +3,14 @@
 **Author:** Siddarth Subrahmanian\
 **Date:** June 9, 2025
 
-### 1. Place the Cleaned data in the data-clean folder
+### 1. Place the Cleaned data in the `data-clean` folder
 
 Add the cleaned data file (.csv ) to:
-data-clean/new_data.csv
+`data-clean/new_data.csv`
 
 ### 2. Update the Processing Script
 
-Add the below code to the data-clean/prepare-data.R file.
+Add the below code to the `data-clean/prepare-data.R` file.
 
 `newData <- read_csv(“data-clean/new_data.csv”)`
 
