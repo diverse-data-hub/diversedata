@@ -47,6 +47,8 @@ making it well-suited for studies on interpersonal dynamics, inequality, and res
 }
 \note{
 Distributed under a data use agreement. Do not use this dataset to identify individuals. Please cite appropriately in publications and reports.
+
+Citation: Rosenfeld, Michael J., Reuben J. Thomas, and Sonia Hausen. 2023. \emph{How Couples Meet and Stay Together 2017–2020–2022 Combined Dataset}. Stanford, CA: Stanford University Libraries. \url{https://data.stanford.edu/hcmst2017}
 }
 \examples{
 data(hcmst)
