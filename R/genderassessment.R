@@ -5,7 +5,8 @@
 #' based on a subset of core gender indicators. The assessment is part of a broader
 #' effort to benchmark private sector progress on gender equality.
 #'
-#' @format A data frame that contains Company-level gender equality indicators and overall score from the World Benchmarking Alliance's 2024 Gender Assessment.
+#' @format A data frame that contains company-level gender equality indicators and overall scores
+#' from the World Benchmarking Alliance's 2024 Gender Assessment.
 #' \describe{
 #'   \item{company_name}{Name of the company evaluated}
 #'   \item{industry}{Industry classification of the company}
@@ -15,10 +16,9 @@
 #'   \item{...}{Additional indicator scores and metadata}
 #' }
 #'
-#' @source World Benchmarking Alliance. [2024 Gender Assessment Dataset](https://www.worldbenchmarkingalliance.org/research/2024-gender-assessment-data-set/)
+#' @source World Benchmarking Alliance: \href{https://www.worldbenchmarkingalliance.org/research/2024-gender-assessment-data-set/}{2024 Gender Assessment Dataset}.
 #'
-#' Data sourced from the World Benchmarking Alliance and available under a Creative Commons Attribution 4.0 International License.
-#' See original dataset: \url{https://www.worldbenchmarkingalliance.org/research/2024-gender-assessment-data-set/}
+#' @note Data licensed under the \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License (CC BY 4.0)}
 #'
 #' @keywords datasets gender equality corporate ESG
 #' @docType data
@@ -27,3 +27,4 @@
 #' data(genderassessment)
 #' summary(genderassessment)
 "genderassessment"
+

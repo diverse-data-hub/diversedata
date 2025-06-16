@@ -5,7 +5,8 @@
 \alias{genderassessment}
 \title{2024 Gender Assessment Dataset}
 \format{
-A data frame that contains Company-level gender equality indicators and overall score from the World Benchmarking Alliance's 2024 Gender Assessment.
+A data frame that contains company-level gender equality indicators and overall scores
+from the World Benchmarking Alliance's 2024 Gender Assessment.
 \describe{
 \item{company_name}{Name of the company evaluated}
 \item{industry}{Industry classification of the company}
@@ -16,10 +17,7 @@ A data frame that contains Company-level gender equality indicators and overall 
 }
 }
 \source{
-World Benchmarking Alliance. \href{https://www.worldbenchmarkingalliance.org/research/2024-gender-assessment-data-set/}{2024 Gender Assessment Dataset}
-
-Data sourced from the World Benchmarking Alliance and available under a Creative Commons Attribution 4.0 International License.
-See original dataset: \url{https://www.worldbenchmarkingalliance.org/research/2024-gender-assessment-data-set/}
+World Benchmarking Alliance: \href{https://www.worldbenchmarkingalliance.org/research/2024-gender-assessment-data-set/}{2024 Gender Assessment Dataset}.
 }
 \usage{
 data(genderassessment)
@@ -29,6 +27,9 @@ This data set comes from the World Benchmarking Alliance's 2024 Gender Assessmen
 It evaluates over 2,000 companies on their performance regarding gender equality
 based on a subset of core gender indicators. The assessment is part of a broader
 effort to benchmark private sector progress on gender equality.
+}
+\note{
+Data licensed under the \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License (CC BY 4.0)}
 }
 \examples{
 data(genderassessment)

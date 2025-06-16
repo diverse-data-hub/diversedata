@@ -3,17 +3,44 @@
 \docType{data}
 \name{bcindigenousbiz}
 \alias{bcindigenousbiz}
-\title{BC Indigenous Business Directory}
+\title{BC Indigenous Business Directory (1910–2021)}
 \format{
-A data frame of Indigenous-owned businesses in BC
+A data frame with the following variables:
+\describe{
+\item{business_name}{Name of the Indigenous-owned business}
+\item{city}{City where the business is located}
+\item{latitude}{Latitude coordinate of the business}
+\item{longitude}{Longitude coordinate of the business}
+\item{region}{Geographic region within British Columbia}
+\item{type}{Type or structure of the business (e.g., sole proprietorship, corporation)}
+\item{industry_sector}{Primary industry sector of the business}
+\item{year_formed}{Year the business was officially formed (ranging from 1910 to 2021)}
+\item{number_of_employees}{Approximate number of employees}
+}
 }
 \source{
-Government of BC
+Government of \href{https://open.canada.ca/data/en/dataset/bdc81d33-1ab5-4882-9764-8701e8971bb7}{British Columbia via the Government of Canada’s Open Government Portal}.
 }
 \usage{
-bcindigenousbiz
+data(bcindigenousbiz)
 }
 \description{
-BC Indigenous Business Directory
+This dataset provides a comprehensive listing of Indigenous-owned businesses across
+British Columbia from 1910 to 2021. It includes information on business names, locations,
+industry sectors, and employment size. The dataset supports research on Indigenous
+economic development, entrepreneurship, and community resilience over time.
 }
+\note{
+Licensed under the \href{https://www2.gov.bc.ca/gov/content/data/policy-standards/data-policies/open-data/open-government-licence-bc}{Open Government Licence – British Columbia}.
+}
+\examples{
+data(bcindigenousbiz)
+summary(bcindigenousbiz$year_formed)
+table(bcindigenousbiz$region)
+}
+\keyword{BC}
+\keyword{business}
 \keyword{datasets}
+\keyword{entrepreneurship}
+\keyword{history}
+\keyword{indigenous}
