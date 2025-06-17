@@ -1,34 +1,47 @@
-#' How Couples Meet and Stay Together (HCMST) 2022
+#' How Couples Meet and Stay Together (HCMST) – 2022 Wave
 #'
-#' This dataset is adapted from the original HCMST longitudinal study led by Stanford University researchers.
-#' It includes survey responses from a nationally representative sample of U.S. adults, focused on how romantic relationships form, evolve, and are influenced by factors such as online dating, intimacy, conflict, and the COVID-19 pandemic.
+#' This dataset is derived from the 2022 wave of the longitudinal HCMST study, conducted by researchers at Stanford University.
+#' The study explores how romantic relationships are formed and sustained in the United States, with a focus on relationship quality,
+#' social context, and the effects of major external events like the COVID-19 pandemic.
 #'
-#' The version included here concentrates on variables relevant to relationship quality and personal/demographic factors collected in the 2022 wave, with selected variables from earlier waves. It is well-suited for analyses of how external shocks like a public health crisis impact interpersonal relationships.
+#' The dataset includes demographic characteristics, relationship context, couple behavior, and pandemic-related experiences,
+#' making it well-suited for studies on interpersonal dynamics, inequality, and resilience in romantic partnerships.
 #'
-#' \strong{Key Variables}:
-#' \itemize{
-#'   \item \code{subject_age}, \code{subject_sex}, \code{subject_ethnicity}, \code{subject_education}, \code{subject_income_category}, \code{subject_employment_status} – Demographic characteristics
-#'   \item \code{same_sex_couple}, \code{married}, \code{relationship_duration}, \code{children} – Relationship context
-#'   \item \code{sex_frequency}, \code{flirts_with_partner}, \code{fights_with_partner} – Couple behavior indicators
-#'   \item \code{rel_change_during_pandemic}, \code{inc_change_during_pandemic}, \code{subject_had_covid}, \code{partner_had_covid}, \code{subject_vaccinated}, \code{partner_vaccinated}, \code{agree_covid_approach} – COVID-19-related variables
-#'   \item \code{relationship_quality} – Self-reported perception of relationship quality (target variable)
+#' @format A data frame with 1,328 observations and 21 variables:
+#' \describe{
+#'   \item{subject_age}{Age of the respondent}
+#'   \item{subject_sex}{Gender identity of the respondent}
+#'   \item{subject_ethnicity}{Ethnic background}
+#'   \item{subject_education}{Educational attainment}
+#'   \item{subject_income_category}{Household income category}
+#'   \item{subject_employment_status}{Employment status}
+#'   \item{same_sex_couple}{Indicator of whether the couple is same-sex}
+#'   \item{married}{Marriage status}
+#'   \item{relationship_duration}{Length of relationship in years}
+#'   \item{children}{Presence of children in the household}
+#'   \item{sex_frequency}{Self-reported sexual frequency}
+#'   \item{flirts_with_partner}{Frequency of flirting with partner}
+#'   \item{fights_with_partner}{Frequency of conflict with partner}
+#'   \item{rel_change_during_pandemic}{Relationship change during the COVID-19 pandemic}
+#'   \item{inc_change_during_pandemic}{Income change due to the pandemic}
+#'   \item{subject_had_covid}{Whether the respondent had COVID-19}
+#'   \item{partner_had_covid}{Whether the respondent's partner had COVID-19}
+#'   \item{subject_vaccinated}{Vaccination status of the respondent}
+#'   \item{partner_vaccinated}{Vaccination status of the partner}
+#'   \item{agree_covid_approach}{Agreement between partners on COVID-19 approach}
+#'   \item{relationship_quality}{Self-reported quality of the relationship (target variable)}
 #' }
 #'
-#' \strong{Use Cases}:
-#' \itemize{
-#'   \item Analyze how demographic and behavioral factors predict relationship quality
-#'   \item Explore the effects of the COVID-19 pandemic on romantic dynamics
-#'   \item Examine the role of intimacy, conflict, and shared pandemic experiences in partnership resilience
-#'   \item Investigate differences by sex, sexual orientation, and income level
-#' }
+#' @source Stanford University Libraries: \href{https://data.stanford.edu/hcmst2017}{How Couples Meet and Stay Together 2017–2022}
 #'
-#' @format A data frame with 1,328 observations and 21 variables related to romantic relationship characteristics, behaviors, and contextual influences.
+#' @note Distributed under a data use agreement. Do not use this dataset to identify individuals. Please cite appropriately in publications and reports.
 #'
-#' @source \url{https://data.stanford.edu/hcmst2017}
-#' Rosenfeld, Michael J., Reuben J. Thomas, and Sonia Hausen. (2023). How Couples Meet and Stay Together 2017–2020–2022 Combined Dataset. Stanford University Libraries.
+#' Citation: Rosenfeld, Michael J., Reuben J. Thomas, and Sonia Hausen. 2023. *How Couples Meet and Stay Together 2017–2020–2022 Combined Dataset*. Stanford, CA: Stanford University Libraries. \url{https://data.stanford.edu/hcmst2017}
 #'
-#' @note This dataset is distributed under a data use agreement. It must not be used to attempt to identify individuals. Please cite appropriately when used in publications or reports.
-#'
+#' @keywords datasets relationships covid-19 longitudinal survey
+#' @docType data
+#' @usage data(hcmst)
+#' @examples
+#' data(hcmst)
+#' summary(hcmst$relationship_quality)
 "hcmst"
-
-
