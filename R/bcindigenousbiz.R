@@ -12,10 +12,10 @@
 #'   \item{latitude}{Latitude coordinate of the business}
 #'   \item{longitude}{Longitude coordinate of the business}
 #'   \item{region}{Geographic region within British Columbia}
-#'   \item{type}{Type or structure of the business (e.g., sole proprietorship, corporation)}
-#'   \item{industry_sector}{Primary industry sector of the business}
-#'   \item{year_formed}{Year the business was officially formed (ranging from 1910 to 2021)}
-#'   \item{number_of_employees}{Approximate number of employees}
+#'   \item{type}{Ownership type of the business (e.g., "Private Company", "Community Owned Company", "Partnership")}
+#'   \item{industry_sector}{Industry classification based on NAICS or a similar standard}
+#'   \item{year_formed}{Year in which the business was established (ranging from 1910 to 2021)}
+#'   \item{number_of_employees}{Size category representing the number of employees.}
 #' }
 #'
 #' @source Government of \href{https://open.canada.ca/data/en/dataset/bdc81d33-1ab5-4882-9764-8701e8971bb7}{British Columbia via the Government of Canada’s Open Government Portal}.

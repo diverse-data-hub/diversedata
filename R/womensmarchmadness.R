@@ -15,15 +15,15 @@
 #'   \item{conf_losses}{Number of conference losses}
 #'   \item{conf_wins_pct}{Conference win percentage}
 #'   \item{conf_rank}{Conference ranking}
-#'   \item{division}{NCAA division}
-#'   \item{reg_wins}{Number of regular season wins}
-#'   \item{reg_losses}{Number of regular season losses}
-#'   \item{reg_wins_pct}{Regular season win percentage}
-#'   \item{bid}{Type of tournament bid (e.g., at-large or automatic)}
-#'   \item{first_game_at_home}{Indicates if the first tournament game was played at home}
+#'   \item{division}{Conference division}
+#'   \item{reg_wins}{Number of regional wins}
+#'   \item{reg_losses}{Number of regional losses}
+#'   \item{reg_wins_pct}{Regional win percentage}
+#'   \item{bid}{ Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid ('auto' or 'at-large')}
+#'   \item{first_game_at_home}{Whether the school played its first-round tournament games on its home court ('Y' or 'N')}
 #'   \item{tourney_wins}{Number of tournament wins}
 #'   \item{tourney_losses}{Number of tournament losses}
-#'   \item{tourney_finish}{Final stage reached in the tournament (e.g., Sweet 16, Final Four)}
+#'   \item{tourney_finish}{The final round reached in the tournament (e.g. 'opening_round_loss', 'first_round_loss', 'top_2_loss', 'champ')}
 #'   \item{total_wins}{Total wins in the season}
 #'   \item{total_losses}{Total losses in the season}
 #'   \item{total_wins_pct}{Overall win percentage for the season}
