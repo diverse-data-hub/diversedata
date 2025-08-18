@@ -9,18 +9,16 @@
 #'
 #' @format A data frame containing country-year observations with indicators on LGBTIQ+ rights and context variables.
 #' \describe{
+#'   \item{year}{Year of observation}
 #'   \item{country}{Country name}
-#'   \item{year}{Observation year}
-#'   \item{gender_affirming_care}{Availability of gender-affirming care}
-#'   \item{same_sex_marriage}{Legal status of same-sex marriage}
-#'   \item{employment_protection}{Legal protection against employment discrimination}
-#'   \item{censorship}{Presence of censorship related to LGBT+ content}
-#'   \item{edu_spend}{Government education spending as % of GDP}
-#'   \item{fertility_rate}{Average number of children born per woman}
-#'   \item{legal_gender}{Right to change legal gender}
-#'   \item{gdp}{GDP per capita}
-#'   \item{gini_index}{Income inequality (Gini Index)}
-#'   \item{civil_liberties}{Human rights index – civil liberties}
+#'   \item{country-code}{ISO 3-letter country code}
+#'   \item{gdp-per-capita}{Gross Domestic Product per capita}
+#'   \item{education-spending-gdp}{Government education spending as a percentage of GDP}
+#'   \item{same-sex-marriage}{Legal status of same-sex marriage (e.g., "Legal", "Unrecognized")}
+#'   \item{lgbtq-censorship}{Whether LGBTQ+ content is censored or restricted}
+#'   \item{employment-discrimination}{Whether anti-discrimination protections exist for LGBTQ+ individuals in employment}
+#'   \item{gender-affirming-care}{Availability and legal access to gender-affirming healthcare}
+#'   \item{legal-gender}{Whether legal gender can be changed and under what conditions}
 #' }
 #'
 #' @source Our World in Data. Detailed indicators compiled from:
