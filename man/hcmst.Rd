@@ -7,27 +7,27 @@
 \format{
 A data frame with 1,328 observations and 21 variables:
 \describe{
-\item{subject_age}{Age of the respondent}
-\item{subject_sex}{Gender identity of the respondent}
+\item{subject_age}{Subject age}
+\item{subject_education}{Highest degree obtained (e.g. "no_education", "11th", "masters_degree")}
+\item{subject_sex}{Subject gender identity}
 \item{subject_ethnicity}{Ethnic background}
-\item{subject_education}{Educational attainment}
 \item{subject_income_category}{Household income category}
 \item{subject_employment_status}{Employment status}
 \item{same_sex_couple}{Indicator of whether the couple is same-sex}
 \item{married}{Marriage status}
-\item{relationship_duration}{Length of relationship in years}
-\item{children}{Presence of children in the household}
 \item{sex_frequency}{Self-reported sexual frequency}
 \item{flirts_with_partner}{Frequency of flirting with partner}
 \item{fights_with_partner}{Frequency of conflict with partner}
+\item{relationship_duration}{Length of relationship in years}
+\item{children}{Number of children in the household}
 \item{rel_change_during_pandemic}{Relationship change during the COVID-19 pandemic}
 \item{inc_change_during_pandemic}{Income change due to the pandemic}
-\item{subject_had_covid}{Whether the respondent had COVID-19}
-\item{partner_had_covid}{Whether the respondent's partner had COVID-19}
-\item{subject_vaccinated}{Vaccination status of the respondent}
-\item{partner_vaccinated}{Vaccination status of the partner}
+\item{subject_had_covid}{Whether the subject had COVID-19}
+\item{partner_had_covid}{Whether the subject's partner had COVID-19}
+\item{subject_vaccinated}{Vaccination status of the subject}
+\item{partner_vaccinated}{Vaccination status of the subject's partner}
 \item{agree_covid_approach}{Agreement between partners on COVID-19 approach}
-\item{relationship_quality}{Self-reported quality of the relationship (target variable)}
+\item{relationship_quality}{Self-reported quality of the relationship}
 }
 }
 \source{
