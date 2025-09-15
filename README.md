@@ -24,9 +24,16 @@ To install the `diversedata` R package from GitHub, follow these steps:
 
 ### Installation
 
-Install `diversedata` directly from GitHub using:
+Install the released version of diversedata from [CRAN](https://cran.r-project.org/) with:
 
 ``` r
+install.packages("diversedata")
+```
+
+To install the development version of diversedata from GitHub, use:
+
+``` r
+# install.packages("devtools")
 devtools::install_github("diverse-data-hub/diversedata")
 ```
 
