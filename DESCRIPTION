@@ -2,11 +2,12 @@ Package: diversedata
 Title: A Curated Collection of Datasets on Diverse Topics
 Version: 0.9.9
 Authors@R: c(
-    person(given = "Katie", family = "Burak", comment = c(title = "PhD"), email ="kburak@stat.ubc.ca", role = c("aut", "cre")),
-    person(given = "Elham E", family = "Khoda", role = "aut", comment = c(title = "PhD")),
+    person(given = "Katie", family = "Burak", comment = c(title = "PhD"), email = "kburak@stat.ubc.ca", role = c("aut", "cre", "cph")),
+    person(given = "Elham E", family = "Khoda", comment = c(title = "PhD"), role = c("aut", "cph")),
     person(given = "Azin", family = "Piran", role = "aut"),
     person(given = "Francisco", family = "Ramirez", role = "aut"),
-    person(given = "Siddarth", family = "Subrahmanian", role = "aut")
+    person(given = "Siddarth", family = "Subrahmanian", role = "aut"),
+    person(given = "Stephanie", family = "Ta", email = "stephanietaprofessional@outlook.com", role = "ctb")
     )
 Description: This package offers a curated collection of real-world datasets on diverse themes, designed to support meaningful exploration, analysis and learning in data science.
 License: CC BY 4.0 + file LICENSE
