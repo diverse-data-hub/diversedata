@@ -54,7 +54,6 @@ If you use \code{diversedata} in teaching or research, please cite the package:
 Useful links:
 \itemize{
   \item \url{https://github.com/diverse-data-hub/diversedata}
-  \item Report bugs at \url{https://github.com/diverse-data-hub/diversedata/issues}
 }
 
 }
