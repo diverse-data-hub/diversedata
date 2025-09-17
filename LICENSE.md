@@ -1,3 +1,31 @@
+## Non-software
+
+diversedata © 2025 by Katie Burak and Elham E. Khoda is licensed under Creative
+Commons Attribution 4.0 International [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
+All non-software material in this repository is made available under the
+**Attribution 4.0 International** ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
+
+This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by/4.0/legalcode.en).
+
+You are free to:
+* **Share** — copy and redistribute the material in any medium or format
+* **Adapt** — remix, transform, and build upon the material
+
+The licensor cannot revoke these freedoms as long as you follow the license
+terms.
+
+Under the following terms:
+
+- **Attribution** — You must give appropriate credit (mentioning that your work is derived from work that is Copyrighted), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
+
+- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+Notices:
+
+- You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
+- No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
+
 ## Software
 
 MIT License
@@ -22,31 +50,8 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## Non-software
-
-diversedata © 2025 by Katie Burak and Elham E. Khoda is licensed under Creative Commons Attribution 4.0 International [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
-
-All non-software material in this repository is made available under the **Attribution 4.0 International** ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
-
-This is a human-readable summary of (and not a substitute for) the [license](https://creativecommons.org/licenses/by/4.0/legalcode.en).
-
-You are free to:
-* **Share** — copy and redistribute the material in any medium or format
-* **Adapt** — remix, transform, and build upon the material
-
-The licensor cannot revoke these freedoms as long as you follow the license terms.
-
-Under the following terms:
-
-- **Attribution** — You must give appropriate credit (mentioning that your work is derived from work that is Copyrighted), provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.
-
-- **No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-Notices:
-
-- You do not have to comply with the license for elements of the material in the public domain or where your use is permitted by an applicable exception or limitation.
-- No warranties are given. The license may not give you all of the permissions necessary for your intended use. For example, other rights such as publicity, privacy, or moral rights may limit how you use the material.
-
 ## Data Sets
 
-Data sets used in this project are licensed by their respective original creators, as indicated on each data set’s individual page. These data sets may have been adapted for use within this project.
+Data sets used in this project are licensed by their respective original
+creators, as indicated on each data set’s individual page. These data sets may
+have been adapted for use within this project.

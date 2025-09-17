@@ -19,7 +19,7 @@
 #'   \item{reg_wins}{Number of regional wins}
 #'   \item{reg_losses}{Number of regional losses}
 #'   \item{reg_wins_pct}{Regional win percentage}
-#'   \item{bid}{ Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid ('auto' or 'at-large')}
+#'   \item{bid}{Whether the school qualified with an automatic bid (by winning its conference or conference tournament) or an at-large bid ('auto' or 'at-large')}
 #'   \item{first_game_at_home}{Whether the school played its first-round tournament games on its home court ('Y' or 'N')}
 #'   \item{tourney_wins}{Number of tournament wins}
 #'   \item{tourney_losses}{Number of tournament losses}

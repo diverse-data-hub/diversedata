@@ -22,16 +22,16 @@
 #' }
 #'
 #' @source Our World in Data. Detailed indicators compiled from:
-#' \href{https://ourworldindata.org/grapher/gender-affirming-care}{Gender-affirming care},
-#' \href{https://ourworldindata.org/grapher/marriage-same-sex-partners-equaldex}{Same-sex marriage},
-#' \href{https://ourworldindata.org/grapher/employment-discrimination-lgbt-equaldex}{Employment discrimination},
-#' \href{https://ourworldindata.org/grapher/censorship-of-lgbt-issues}{Censorship},
-#' \href{https://ourworldindata.org/grapher/right-to-change-legal-gender-equaldex}{Legal gender change},
-#' \href{https://ourworldindata.org/grapher/gdp-per-capita-worldbank}{GDP per capita},
-#' \href{https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp}{Education spending},
-#' \href{https://ourworldindata.org/grapher/children-born-per-woman}{Fertility rate},
-#' \href{https://ourworldindata.org/grapher/economic-inequality-gini-index}{Gini Index},
-#' \href{https://ourworldindata.org/grapher/human-rights-index-vdem}{Human rights index}.
+#' Gender-affirming care: https://ourworldindata.org/grapher/gender-affirming-care,
+#' Same-sex marriage: https://ourworldindata.org/grapher/marriage-same-sex-partners-equaldex,
+#' Employment discrimination: https://ourworldindata.org/grapher/employment-discrimination-lgbt-equaldex,
+#' Censorship: https://ourworldindata.org/grapher/censorship-of-lgbt-issues,
+#' Legal gender change: https://ourworldindata.org/grapher/right-to-change-legal-gender-equaldex,
+#' GDP per capita: https://ourworldindata.org/grapher/gdp-per-capita-worldbank,
+#' Education spending: https://ourworldindata.org/grapher/total-government-expenditure-on-education-gdp,
+#' Fertility rate: https://ourworldindata.org/grapher/children-born-per-woman,
+#' Gini Index: https://ourworldindata.org/grapher/economic-inequality-gini-index,
+#' Human rights index: https://ourworldindata.org/grapher/human-rights-index-vdem.
 #'
 #' @note Data licensed under the \href{https://creativecommons.org/licenses/by/4.0/}{Creative Commons Attribution 4.0 International License (CC BY 4.0)}
 #'
