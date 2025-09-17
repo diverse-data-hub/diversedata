@@ -51,14 +51,19 @@ If you use \code{diversedata} in teaching or research, please cite the package:
 }
 
 \author{
-\strong{Maintainer}: Katie Burak \email{kburak@stat.ubc.ca} (PhD)
+\strong{Maintainer}: Katie Burak \email{kburak@stat.ubc.ca} (PhD) [copyright holder]
 
 Authors:
 \itemize{
-  \item Elham E Khoda (PhD)
+  \item Elham E Khoda (PhD) [copyright holder]
   \item Azin Piran
   \item Francisco Ramirez
   \item Siddarth Subrahmanian
+}
+
+Other contributors:
+\itemize{
+  \item Stephanie Ta \email{stephanietaprofessional@outlook.com} [contributor]
 }
 
 }
