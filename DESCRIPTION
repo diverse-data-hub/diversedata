@@ -1,6 +1,6 @@
 Package: diversedata
 Title: A Curated Collection of Datasets on Diverse Topics
-Version: 0.9.9
+Version: 1.0.0
 Authors@R: c(
     person(given = "Katie", family = "Burak", comment = c(title = "PhD"),
       email = "kburak@stat.ubc.ca", role = c("aut", "cre", "cph")),
@@ -15,7 +15,7 @@ Authors@R: c(
 Description: A curated collection of real-world datasets on diverse themes,
     designed to support meaningful exploration, analysis and learning in data
     science.
-License: CC BY 4.0 + file LICENSE.md
+License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
