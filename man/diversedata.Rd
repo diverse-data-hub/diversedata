@@ -50,6 +50,14 @@ If you use \code{diversedata} in teaching or research, please cite the package:
 }\if{html}{\out{</div>}}
 }
 
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/diverse-data-hub/diversedata}
+  \item Report bugs at \url{https://github.com/diverse-data-hub/diversedata/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Katie Burak \email{kburak@stat.ubc.ca} (PhD) [copyright holder]
 
