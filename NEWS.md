@@ -1,3 +1,3 @@
-# diversedata 0.9.9
+# diversedata 1.0.0
 
 * Initial CRAN submission.
