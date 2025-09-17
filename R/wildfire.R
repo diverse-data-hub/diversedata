@@ -19,7 +19,7 @@
 #'   \item{activity_class}{Activity that was going on when the wildfire started}
 #'   \item{true_cause}{Specific reason why the wildfire started (e.g., "Arson Known", "Hot Exhaust", "Line Impact", "Unattended Fire", etc.)}
 #'   \item{fire_start_date}{Datetime the wildfire started}
-#'   \item{detection_agent_type}{Type of detection agent that discovered the wildfire (e.g., lookout ("LKT"), aircraft ("AIR")}
+#'   \item{detection_agent_type}{Type of detection agent that discovered the wildfire (e.g., lookout ("LKT"), aircraft ("AIR"))}
 #'   \item{detection_agent}{Specific type of detection agent that discovered the wildfire}
 #'   \item{assessment_hectares}{Size of the wildfire in hectares at the time of assessment}
 #'   \item{fire_spread_rate}{Rate at which the wildfire spread in metres/minute at the time of initial assessment}
