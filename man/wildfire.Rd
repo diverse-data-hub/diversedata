@@ -46,7 +46,7 @@ location, weather, detection methods, and response actions.
 }
 }
 \source{
-Government of Alberta: \href{https://www.alberta.ca/wildfire-maps-and-data/}{Alberta Wildfire}
+Government of Alberta: \href{https://www.alberta.ca/wildfire-maps-and-data}{Alberta Wildfire}
 }
 \usage{
 data(wildfire)

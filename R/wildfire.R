@@ -44,7 +44,7 @@
 #'   \item{first_ex_size_perimeter}{Wildfire size when first declared extinguished in hectares}
 #' }
 #'
-#' @source Government of Alberta: \href{https://www.alberta.ca/wildfire-maps-and-data/}{Alberta Wildfire}
+#' @source Government of Alberta: \href{https://www.alberta.ca/wildfire-maps-and-data}{Alberta Wildfire}
 #'
 #' @note Data provided under the Alberta Open Government Licence: \href{https://open.alberta.ca/licence}{Open Government Licence - Alberta}
 #'
