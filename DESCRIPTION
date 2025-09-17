@@ -26,3 +26,5 @@ Suggests:
     knitr,
     rmarkdown
 VignetteBuilder: knitr
+URL: https://github.com/diverse-data-hub/diversedata
+BugReports: https://github.com/diverse-data-hub/diversedata/issues
