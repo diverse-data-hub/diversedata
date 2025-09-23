@@ -1,6 +1,6 @@
 Package: diversedata
 Title: A Curated Collection of Datasets on Diverse Topics
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: c(
     person(given = "Katie", family = "Burak",
       email = "kburak@stat.ubc.ca", role = c("aut", "cre", "cph")),
