@@ -14,6 +14,8 @@
   - 'data-clean' contains the cleaned .csv files that correspond to the .rda 
     datasets in 'data'. These files are for transparency and reproducibility.
 
+## Resubmission
+
 * Previously, a note appeared about a mismatch between the `Author` field 
   and `Authors@R` due to inclusion of PhD titles. These titles have been 
   removed so the fields are consistent.
