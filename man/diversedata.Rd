@@ -58,11 +58,11 @@ Useful links:
 
 }
 \author{
-\strong{Maintainer}: Katie Burak \email{kburak@stat.ubc.ca} (PhD) [copyright holder]
+\strong{Maintainer}: Katie Burak \email{kburak@stat.ubc.ca} [copyright holder]
 
 Authors:
 \itemize{
-  \item Elham E Khoda (PhD) [copyright holder]
+  \item Elham E Khoda [copyright holder]
   \item Azin Piran
   \item Francisco Ramirez
   \item Siddarth Subrahmanian
