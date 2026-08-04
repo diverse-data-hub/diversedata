@@ -16,6 +16,7 @@
 #' For more information, visit the project website: \url{https://diverse-data-hub.github.io/}
 #'
 #' @section Available datasets:
+#' - `postgradincome`: Median income of students two years post graduation in Canada from Statistics Canada.
 #' - `bcindigenousbiz`: Indigenous-owned businesses in British Columbia, Canada.
 #' - `wildfire`: Historical wildfire incidents in Alberta, Canada.
 #' - `globalrights`: Global indicators on LGBTIQ+ rights and related social and economic variables, compiled from Our World in Data.

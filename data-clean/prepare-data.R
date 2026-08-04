@@ -10,10 +10,12 @@ globalrights <- read_csv("data-clean/globalrights.csv")
 hcmst <- read_csv("data-clean/hcmst.csv")
 womensmarchmadness <- read_csv("data-clean/womensmarchmadness.csv")
 genderassessment <- read_csv("data-clean/genderassessment.csv")
+postgradincome <- read_csv("data-clean/postgradincome.csv")
 
 
 # Save all datasets into the package
 use_data(
+  postgradincome,
   bcindigenousbiz,
   wildfire,
   globalrights,
