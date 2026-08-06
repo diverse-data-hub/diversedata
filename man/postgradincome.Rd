@@ -15,6 +15,7 @@ A data frame with the following variables:
 \item{age_group}{Age bracket of the group of students}
 \item{population_group}{Ethnic or racial background of the group of students}
 \item{median_income}{Median of the reported income of the group of students}
+\item{number_graduates}{Number of graduates who reported income}
 }
 }
 \source{

@@ -16,6 +16,7 @@
 #'   \item{age_group}{Age bracket of the group of students}
 #'   \item{population_group}{Ethnic or racial background of the group of students}
 #'   \item{median_income}{Median of the reported income of the group of students}
+#'   \item{number_graduates}{Number of graduates who reported income}
 #' }
 #'
 #' @source Statistics Canada via the \href{https://open.canada.ca/data/en/dataset/92554b64-fc13-427f-bbb2-f16b3436759c}{Government of Canada’s Open Government Portal}.
