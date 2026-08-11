@@ -18,7 +18,6 @@ Description: A curated collection of real-world datasets on diverse themes,
 License: CC BY 4.0
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
-RoxygenNote: 7.3.2
 Depends: 
     R (>= 3.5)
 LazyData: true
@@ -27,3 +26,4 @@ Suggests:
     rmarkdown
 VignetteBuilder: knitr
 URL: https://github.com/diverse-data-hub/diversedata
+Config/roxygen2/version: 8.1.0
