@@ -63,6 +63,7 @@ Useful links:
 
 Authors:
 \itemize{
+  \item Katie Burak \email{kburak@stat.ubc.ca} [copyright holder]
   \item Elham E Khoda [copyright holder]
   \item Azin Piran
   \item Francisco Ramirez
