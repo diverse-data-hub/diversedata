@@ -12,6 +12,7 @@ womensmarchmadness <- read_csv("data-clean/womensmarchmadness.csv")
 genderassessment <- read_csv("data-clean/genderassessment.csv")
 postgradincome <- read_csv("data-clean/postgradincome.csv")
 labourforcewithdisabilities <- read_csv("data-clean/labourforcewithdisabilities.csv")
+airquality <- read_csv("data-clean/airquality.csv")
 
 
 # Save all datasets into the package
@@ -24,5 +25,6 @@ use_data(
   hcmst,
   womensmarchmadness,
   genderassessment,
+  airquality,
   overwrite = TRUE
 )
